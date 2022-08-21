@@ -26,6 +26,8 @@ button {
     font-size: 36px;
     cursor: pointer;
     margin: auto;
+    background-position: center;
+    background-attachment: fixed;
 }
 button1 {    
     background-color: #EB6126;
