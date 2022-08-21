@@ -4,7 +4,8 @@ body{
     background-image: url(Images/hiker.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    background-position: center;
+    background-attachment: fixed;
 }
 img {
     display: block;
