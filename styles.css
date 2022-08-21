@@ -13,6 +13,10 @@ img {
     height: 288px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 150px;
+    size: auto;
 }
 button {
     display: block;
@@ -26,10 +30,17 @@ button {
     font-size: 36px;
     cursor: pointer;
     margin: auto;
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
-button1 {    
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+input {
+    display: inline;
     background-color: #EB6126;
     border: none;
     color: #FFF;
@@ -39,6 +50,6 @@ button1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     cursor: pointer;
-    margin: auto
-
+    margin: auto;
+    background-position: top left;
 }
