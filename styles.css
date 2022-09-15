@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
 }
 img {
-    display: block;
+    display: inline-block;
     width: 536px;
     height: 288px;
     margin-left: auto;
@@ -16,10 +16,9 @@ img {
     position: relative;
     background-position: top center;
     padding-bottom: 150px;
-    size: auto;
 }
 button {
-    display: block;
+    display: inline-block;
     background-color: #EB6126;
     border: none;
     color: #FFF;
@@ -32,6 +31,7 @@ button {
     margin: auto;
     background-size: cover;
     background-position: center;
+
 }
 .content-wrap {
     max-width: 800px;
@@ -39,17 +39,6 @@ button {
     margin: 0 auto;
     padding: 60px 0;
 }
-input {
-    display: inline;
-    background-color: #EB6126;
-    border: none;
-    color: #FFF;
-    width: 266.29px;
-    height: 80.45px;
-    border-radius: 28px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
-    cursor: pointer;
-    margin: auto;
-    background-position: top left;
+header {
+    display: flex;
 }
