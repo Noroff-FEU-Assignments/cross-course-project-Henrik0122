@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/hiker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+img {
+    display: inline-block;
+    width: 536px;
+    height: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 150px;
+    left: 400px;
+}
+button {
+    display: inline-block;
+    background-color: #EB6126;
+    border: none;
+    color: #FFF;
+    width: 266.29px;
+    height: 80.45px;
+    border-radius: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    cursor: pointer;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+
+}
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+header {
+    display: flex;
+}
+main {
+    position: relative;
+    left: 850px;
+}
