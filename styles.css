@@ -16,6 +16,7 @@ img {
     position: relative;
     background-position: top center;
     padding-bottom: 150px;
+    left: 400px;
 }
 button {
     display: inline-block;
@@ -41,4 +42,8 @@ button {
 }
 header {
     display: flex;
+}
+main {
+    position: relative;
+    left: 850px;
 }
